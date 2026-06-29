@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>☁️ Cloud Up Pastry</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    background:linear-gradient(135deg,#ffd6e7,#fff2cc,#d6f5ff);
+}
+
+header{
+    padding:40px;
+}
+
+h1{
+    font-size:60px;
+    color:#ff1493;
+    animation:float 2s infinite alternate;
+}
+
+h2{
+    color:#444;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    width:220px;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.1);
+}
+
+button{
+    margin-top:30px;
+    padding:15px 35px;
+    font-size:22px;
+    border:none;
+    border-radius:50px;
+    background:#ff1493;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+    background:#ff69b4;
+}
+
+section{
+    padding:40px 20px;
+}
+
+footer{
+    background:white;
+    padding:20px;
+    margin-top:50px;
+    font-weight:bold;
+}
+
+@keyframes float{
+    from{transform:translateY(0);}
+    to{transform:translateY(-15px);}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>☁️ Cloud Up ☁️</h1>
+    <h2>The Sweetest Bakery in the Sky!</h2>
+    <p>Fresh Cakes, Cupcakes & Sweet Treats</p>
+</header>
+
+<section>
+    <h2>🍰 Our Treats 🍰</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h2>🧁 Cupcakes</h2>
+            <p>Soft and fluffy cupcakes.</p>
+        </div>
+
+        <div class="card">
+            <h2>🎂 Cakes</h2>
+            <p>Birthday and custom cakes.</p>
+        </div>
+
+        <div class="card">
+            <h2>🍪 Cookies</h2>
+            <p>Fresh baked every day.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>⭐ Our Best Sellers ⭐</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h2>🍫 Chocolate Cake</h2>
+            <p>Rich chocolate flavor.</p>
+        </div>
+
+        <div class="card">
+            <h2>🍓 Strawberry Cupcake</h2>
+            <p>Sweet and fruity.</p>
+        </div>
+
+        <div class="card">
+            <h2>🍪 Choco Cookie</h2>
+            <p>Fresh from the oven.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>💬 Customer Reviews 💬</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>Best cupcakes ever!</p>
+        </div>
+
+        <div class="card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>Amazing birthday cakes!</p>
+        </div>
+
+        <div class="card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>I love Cloud Up!</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>📍 Visit Us 📍</h2>
+
+    <div class="card" style="margin:auto;">
+        <p>Open Every Day</p>
+        <p>8:00 AM - 10:00 PM</p>
+        <p>Cloud Up Pastry Shop</p>
+    </div>
+</section>
+
+<button onclick="window.location.href='ORDER.HTML'">
+🍰 Order Now
+</button>
+
+<footer>
+    ☁️ Cloud Up Pastry © 2026
+</footer>
+
+</body>
+</html>
